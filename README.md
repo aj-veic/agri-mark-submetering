@@ -6,7 +6,9 @@ Agri-Mark has a Schneider Power Monitoring Expert (PME) platform installed at th
 This repository is for code written to make engineering analysis easier for the canned reports. 
 
 **data_quality_agrimark.py** -> used to look at all data for a specific month and show data quality statistics and visualize data gaps
+
 **clean_pme_{dataset}_datafile_agrimark.py** -> gives user dropdown with all data files in Data directory to choose which one is cleaned, renames points to more user friendly ones and removes empty columns added by PME for {compressed_air}, {refrigeration} and {wastewater} datasets and saved cleaned data in Data directory in CLeaned_AgriMark {dataset} PME Data Export{month} where month is in _YYYY_MM format. 
+
 **analysis_clean_{dataset}_agrimark.py** -> visualizes cleaned datafiles selected from dropdown menu and saved canned analysis plots in Reports
 
 **The scripts were developed for the following workflow:**
